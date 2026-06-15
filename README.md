@@ -800,13 +800,12 @@ El sistema de diseño usa variables CSS definidas en `style.css` (`--bg-surface`
 
 | | |
 |---|---|
-| <img loading="lazy" src="[https://github.com/user-attachments/assets/1ad4d892-9777-4b9b-8305-ebe85305cfd8](https://github.com/user-attachments/assets/b8a28bde-7a63-4fb5-ab29-dae045f5c318)" alt="Página principal de VinylVibes" width="800"/> | 
-| <img loading="lazy" src="[https://github.com/user-attachments/assets/4ef93b08-d50d-46b7-9491-7cd907dcb663](https://github.com/user-attachments/assets/c698edfe-8f98-4268-9bab-666cf72c7caa)" alt="Búsqueda de discos" width="400"/>|
-| <img loading="lazy" src="[https://github.com/user-attachments/assets/4ef93b08-d50d-46b7-9491-7cd907dcb663](https://github.com/user-attachments/assets/8769e360-5673-4111-8041-c7813d667014)" alt="Seccion de generos musicales" width="400"/>|
-| <img loading="lazy" src="[[https://github.com/user-attachments/assets/4ef93b08-d50d-46b7-9491-7cd907dcb663](https://github.com/user-attachments/assets/8769e360-5673-4111-8041-c7813d667014)](https://github.com/user-attachments/assets/28cf1996-b01a-4a49-8d43-18dd05ac8edd)" alt="Seccion de generos musicales" width="400"/>|
+| <img loading="lazy" src="https://github.com/user-attachments/assets/b8a28bde-7a63-4fb5-ab29-dae045f5c318" alt="Página principal de VinylVibes" width="800"/> | 
+| <img loading="lazy" src="https://github.com/user-attachments/assets/c698edfe-8f98-4268-9bab-666cf72c7caa" alt="Búsqueda de discos" width="400"/>|
+| <img loading="lazy" src="https://github.com/user-attachments/assets/8769e360-5673-4111-8041-c7813d667014" alt="Seccion de generos musicales" width="400"/>|
 
-| <img loading="lazy" src="[https://github.com/user-attachments/assets/1ad4d892-9777-4b9b-8305-ebe85305cfd8](https://github.com/user-attachments/assets/b8a28bde-7a63-4fb5-ab29-dae045f5c318)](https://github.com/user-attachments/assets/8eef01ca-0473-410e-91cd-0c3c221b5f8a)" alt="Modal de historia" width="800"/> | 
-| <img loading="lazy" src="[https://github.com/user-attachments/assets/1ad4d892-9777-4b9b-8305-ebe85305cfd8](https://github.com/user-attachments/assets/b8a28bde-7a63-4fb5-ab29-dae045f5c318)](https://github.com/user-attachments/assets/8eef01ca-0473-410e-91cd-0c3c221b5f8a)](https://github.com/user-attachments/assets/84e4ade7-b921-4b01-8299-a5e53cffce40)" alt="Modal de Compra" width="800"/> | 
+| <img loading="lazy" src="https://github.com/user-attachments/assets/8eef01ca-0473-410e-91cd-0c3c221b5f8a" alt="Modal de historia" width="800"/> | 
+| <img loading="lazy" src="https://github.com/user-attachments/assets/84e4ade7-b921-4b01-8299-a5e53cffce40" alt="Modal de Compra" width="800"/> | 
 
 </details>
 
@@ -824,6 +823,72 @@ Demo en Vivo: [VinylVibes](https://akibanks.github.io/tienda_musica_web/)
 
 Para reportar un bug, abre un Issue en GitHub con el endpoint afectado, el request que lo reproduce y el error que devuelve.
 
+
+## Equipo 21:🍽️ Sistema de Gestión de Restaurante
+
+Aplicación web full-stack desarrollada para la gestión integral de un restaurante. El sistema permite la administración del menú, control de almacén, gestión de personal, finanzas y cuenta con un mapa  del salón en tiempo real.
+
+## Tecnologías Utilizadas
+* *Frontend:* HTML5, CSS3, JavaScript, Vite
+* *Backend:* PostgreSQL alojado en Supabase
+* *Hosting:* Vercel
+
+---
+
+## Funcionalidades y capturas de pantalla
+
+El sistema está dividido en módulos interactivos que se comunican de forma asíncrona con la base de datos relacional para mantener la información actualizada:
+
+* *🪑 Salón Principal:* Plano visual del establecimiento con posicionamiento de las mesas. Muestra el estado de las 8 mesas (Libre u Ocupada) mediante filtros visuales que reaccionan en tiempo real a los registros de la base de datos, permitiendo abrir cuentas o visualizar pedidos con un clic.
+  <details>
+  <summary>🖼️  Captura del Salón</summary>
+  <br>
+  <img loading="lazy" src="https://github.com/user-attachments/assets/d7517efb-67f0-4e54-8b56-e085099ef7bd" alt="Mapa de Mesas Interactivo" width="800"/>
+  </details>
+
+* *🔐 Acceso y Seguridad:* Sistema de inicio de sesión validado con la base de datos para restringir el acceso según el rol del empleado.
+  <details>
+  <summary>🖼️ Captura de Inicio de Sesión</summary>
+  <br>
+  <img loading="lazy" src="https://github.com/user-attachments/assets/79e6baed-395d-487e-adc1-9ee656bb7223" alt="Login" width="800"/> 
+  </details>
+
+* *📋 Menú y Órdenes:* Catálogo de los platillos y bebidas del restaurante que permite tomar la orden directamente desde la mesa seleccionada, sumando totales al instante.
+  <details>
+  <summary>🖼️ Captura del Menú</summary>
+  <br>
+  <img loading="lazy" src="https://github.com/user-attachments/assets/772de401-0171-49cc-a700-652aa9705093" alt="Módulo de Menú" width="800"/>
+  </details>
+
+* *📦 Almacén:* Módulo para el control de inventario de los insumos y materias primas necesarios para la operación diaria.
+  <details>
+  <summary>🖼️ Captura del Almacén</summary>
+  <br>
+  <img loading="lazy" src="https://github.com/user-attachments/assets/6ab4974e-8ba2-4dec-aaf5-164564c89ed2" alt="Control de Almacén" width="800"/>
+  </details>
+
+* *👥 Personal:* Interfaz para la gestión y registro de los empleados, meseros y administradores del sistema.
+  <details>
+  <summary>🖼️ Captura de Personal</summary>
+  <br>
+  <img loading="lazy" src="https://github.com/user-attachments/assets/607e3ae6-9055-4cc4-9ecf-0015687459aa" alt="Gestión de Personal" width="800"/>
+  </details>
+
+* *📊 Finanzas:* Visualización de los ingresos y control de las cuentas cobradas en el establecimiento.
+  <details>
+  <summary>🖼️ Captura de Finanzas</summary>
+  <br>
+  <img loading="lazy" src="https://github.com/user-attachments/assets/7aa87642-240f-4806-bf7a-f015f8461d57" alt="Módulo de Finanzas" width="800"/>
+  </details>
+
+
+### 🔗 Enlaces del Proyecto
+* *Código Fuente:* [Repositorio en GitHub](https://github.com/samLimsx/proyecto-bases.git)
+* *Demo en Vivo:* [Página Web en Vercel](https://proyecto-bases-snowy.vercel.app/)
+* *Usuario de prueba:*admin@prueba.com
+* *Contraseña*admin
+
+---
 ---
 
 ## Proyecto 7: Patitas Sanas - Veterinaria 
@@ -847,42 +912,42 @@ manejo de personal e informacion sobre los servicios proporcionados.
 
 | Pantalla de Inicio |
 |---|
-| <img loading="lazy" src="https://raw.githubusercontent.com/Jaely19/Patitas-Sanas/main/fotos/inicio.png" width="800"/> |
+| <img loading="lazy" src="./fotos/inicio.png" width="800"/> |
 
 | Servicios |
 |---|
-| <img loading="lazy" src="https://raw.githubusercontent.com/Jaely19/Patitas-Sanas/main/fotos/servicios.png" width="800"/> |
+| <img loading="lazy" src="./fotos/servicios.png" width="800"/> |
 
 | Login |
 |---|
-| <img loading="lazy" src="https://raw.githubusercontent.com/Jaely19/Patitas-Sanas/main/fotos/login.png" width="800"/> |
+| <img loading="lazy" src="./fotos/login.png" width="800"/> |
 
 | Panel de Citas |
 |---|
-| <img loading="lazy" src="https://raw.githubusercontent.com/Jaely19/Patitas-Sanas/main/fotos/cita-1.png" width="800"/> |
-| <img loading="lazy" src="https://raw.githubusercontent.com/Jaely19/Patitas-Sanas/main/fotos/cita-2.png" width="800"/> |
-| <img loading="lazy" src="https://raw.githubusercontent.com/Jaely19/Patitas-Sanas/main/fotos/cita-3.png" width="800"/> |
+| <img loading="lazy" src="./fotos/cita-1.png" width="800"/> |
+| <img loading="lazy" src="./fotos/cita-2.png" width="800"/> |
+| <img loading="lazy" src="./fotos/cita-3.png" width="800"/> |
 
 | Clientes |
 |---|
-| <img loading="lazy" src="https://raw.githubusercontent.com/Jaely19/Patitas-Sanas/main/fotos/cliente.png" width="800"/> |
+| <img loading="lazy" src="./fotos/cliente.png" width="800"/> |
 
 | Inventario |
 |---|
-| <img loading="lazy" src="https://raw.githubusercontent.com/Jaely19/Patitas-Sanas/main/fotos/inv.png" width="800"/> |
+| <img loading="lazy" src="./fotos/inv.png" width="800"/> |
 
 | Recepcionista |
 |---|
-| <img loading="lazy" src="https://raw.githubusercontent.com/Jaely19/Patitas-Sanas/main/fotos/rec.png" width="800"/> |
+| <img loading="lazy" src="./fotos/rec.png" width="800"/> |
 
 | Administrador |
 |---|
-| <img loading="lazy" src="https://raw.githubusercontent.com/Jaely19/Patitas-Sanas/main/fotos/admin-1.png" width="800"/> |
-| <img loading="lazy" src="https://raw.githubusercontent.com/Jaely19/Patitas-Sanas/main/fotos/admin-2.png" width="800"/> |
+| <img loading="lazy" src="./fotos/admin-1.png" width="800"/> |
+| <img loading="lazy" src="./fotos/admin-2.png" width="800"/> |
 
 | Veterinario |
 |---|
-| <img loading="lazy" src="https://raw.githubusercontent.com/Jaely19/Patitas-Sanas/main/fotos/vet.png" width="800"/> |
+| <img loading="lazy" src="./fotos/vet.png" width="800"/> |
 
 </details>
 
