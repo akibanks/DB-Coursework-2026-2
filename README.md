@@ -700,6 +700,8 @@ El sistema de diseño usa variables CSS definidas en `style.css` (`--bg-surface`
 
 ---
 
+## Pagina Con base de datos local:
+- **Enlace** [Repositorio](https://github.com/20gercha06-stack/VinylVibes_Local_Storage.git)
 ## Despliegue
 
 - **Backend:** hospedado en [Render](https://render.com). Configura las variables de entorno en Render → Environment.
